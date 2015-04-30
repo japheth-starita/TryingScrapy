@@ -13,4 +13,6 @@ class ProductItem(scrapy.Item):
   	title = scrapy.Field()
   	price = scrapy.Field()
   	image = scrapy.Field()
-  	pass
+  	sku = scrapy.Field()
+  	currency = scrapy.Field()
+  	desc = scrapy.Field()
